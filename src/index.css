@@ -1,13 +1,124 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.app {
+  background-color: #131516;
+  display: flex;
+  justify-content: center;
+  height: 1080px;
+}
+
+.sidenav {
+  /* background-color: green; */
+  width:200px;
+  padding: 0 10px;
+  color: white;
+}
+
+.content {
+  width: 50%;
+  border-left: 1px solid darkgray;
+  border-right: 1px solid darkgray;
+  max-width: 600px;
+}
+
+.newTweet {
+  /* background-color: yellow; */
+  color: white;
+  padding: 0 10px;
+  margin-top: 10px;
+  border-bottom: 1px solid darkgray;
+}
+
+.tweets {
+  /* background-color: orange; */
+  color: white;
+}
+
+.header {
+  /* background-color:red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  color: white;
+  /* border-bottom: 1px solid darkgray; */
+}
+
+.searchBar {
+  border: 0;
+  height: 30px;
+  border-radius: 25px;
+  padding: 0 20px;
+  font-size: medium;
+  
+}
+
+.inputTweet {
+  height: 40px;
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  font-size: larger;
+  color: white;
+  padding: 15px 0;
+  overflow: hidden;
+  resize: none;
+}
+
+.tweetBtn {
+  color: white;
+  background-color: #004daa;
+  border: 0;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+/* .newTweetForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+} */
+
+.tweetBtnDiv {
+  display: flex;
+  justify-content: end;
+}
+
+.tweet {
+  color: white;
+  padding: 15px 25px;
+  border-bottom: 1px solid darkgray;
+}
+
+.acc {
+  display: flex;
+  align-items: center;
+}
+
+.likes {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: end;
+}
+
+.like {
+  border-radius: 20px;
+  font-size: small;
+  padding: 0 5px;
+  margin-right: 5px;
+  /* background-color: red; */
+  border: 0;
+  color: black;
+  cursor: pointer;
 }

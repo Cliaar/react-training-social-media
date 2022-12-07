@@ -48,7 +48,7 @@ function App() {
   return (
     <Router>
       <div className="app">
-      <SideNav />
+      <SideNav currAcc={currAcc} />
       <Routes>    
         <Route path="/home" element={<Home accounts={accounts} currAcc={currAcc} />} />
       </Routes>

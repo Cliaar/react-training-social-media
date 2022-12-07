@@ -5,10 +5,10 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: #131516;
 }
 
 .app {
-  background-color: #131516;
   display: flex;
   justify-content: center;
   height: 1080px;

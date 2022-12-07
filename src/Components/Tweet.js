@@ -1,6 +1,6 @@
 export const Tweet = ( { tweet, accounts }) => {
     const user = accounts.find(o => o.id === tweet.userId)
-    console.log(user)
+    // console.log(user)
 
   return (
     <div className="tweet">

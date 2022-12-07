@@ -1,6 +1,6 @@
-import { Tweets } from "./Components/Tweets";
-import { Header } from "./Components/Header";
-import { NewTweet } from "./Components/NewTweet";
+import { Tweets } from "./Tweets";
+import { Header } from "./Header";
+import { NewTweet } from "./NewTweet";
 
 export const Home = ( {tweets, accounts} ) => {
   return (
